@@ -1,0 +1,15 @@
+%% -*- erlang -*-
+{application, rbacl,
+ [
+  {description, "A Lasp Application"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  sasl,
+                  lasp
+                 ]},
+  {mod, { rbacl_app, []}},
+  {env, []}
+ ]}.
